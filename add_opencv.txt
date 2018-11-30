@@ -1,0 +1,6 @@
+Our last step is to sym-link our OpenCV cv2.so  bindings into our cv  virtual environment:
+
+Ubuntu 18.04: How to install OpenCVShell
+
+$ cd ~/.virtualenvs/cv/lib/python3.6/site-packages/
+$ ln -s /usr/local/lib/python3.6/site-packages/cv2.so cv2.so
